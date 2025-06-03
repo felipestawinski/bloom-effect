@@ -63,7 +63,7 @@ def main():
     
     bloom_gaussian = apply_bloom_gaussian(image, threshold=0.7, blur_amount=5.0)
     cv2.imshow('Gaussian Bloom Effect', bloom_gaussian)
-    cv2.imshow('Original Image', image)
+    cv2.imshow('Imagem original', image)
     cv2.waitKey(0)
     
     # bloom_box = apply_bloom_media(image, threshold=0.7, size=3)
